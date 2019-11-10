@@ -4,7 +4,7 @@ This program allows you to see and understand how a synchrotron work in a simpli
 
 The synchrotron is composed of a few specialzed sections:
 - Electric cavity:            letter E, white block 
-- Magnetic cavity:            letter M, lightblue curved block
+- Magnetic cavity:            letter B, lightblue curved block
 - Focale cavity:              letter F, blue block
 - Insersion cavity:           letter I, red y-shape block
 - Rejection cavity:           letter R, orange y-shape block
