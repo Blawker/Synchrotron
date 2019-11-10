@@ -46,8 +46,8 @@ function focale_cavity(B1,B2,l,d,color) {
     const xm2=p[4][0],ym2=p[4][1];
     const x4=p[5][0],y4=p[5][1];
 
-    draw_circle(context,this.x,this.y,2,"red");
-    draw_circle(context,this.x_f,this.y_f,2,"green");
+    //draw_circle(context,this.x,this.y,2,"red");
+    //draw_circle(context,this.x_f,this.y_f,2,"green");
 
     draw_single_line(ctx,x1,y1,x2,y2,this.color);
     draw_single_line(ctx,x2,y2,x3,y3,this.color);

@@ -73,9 +73,9 @@ function magnetic_cavity(B,r,theta,d,color) {
       draw_single_line(ctx,x2,y2,x3,y3,this.color);
       draw_arc(ctx,this.x_c,this.y_c,Math.abs(this.r+this.d/2),Math.PI/2+this.a+this.theta,-this.theta,this.color);
       draw_arc(ctx,this.x_c,this.y_c,Math.abs(this.r-this.d/2),Math.PI/2+this.a+this.theta,-this.theta,this.color);
-      draw_circle(ctx,this.x_c,this.y_c,2,"red");
-      draw_circle(ctx,x4,y4,2,"red");
-      draw_circle(ctx,x5,y5,2,"red");
+      //draw_circle(ctx,this.x_c,this.y_c,2,"red");
+      //draw_circle(ctx,x4,y4,2,"red");
+      //draw_circle(ctx,x5,y5,2,"red");
     }
     else {
       const p=this.p;
@@ -89,10 +89,10 @@ function magnetic_cavity(B,r,theta,d,color) {
       draw_single_line(ctx,x2,y2,x3,y3,this.color);
       draw_arc(ctx,this.x_c,this.y_c,Math.abs(this.r+this.d/2),-Math.PI/2+this.a,this.theta,this.color);
       draw_arc(ctx,this.x_c,this.y_c,Math.abs(this.r-this.d/2),-Math.PI/2+this.a,this.theta,this.color);
-      draw_circle(ctx,this.x_c,this.y_c,2,"red");
-      draw_circle(ctx,x1,y1,2,"red");
-      draw_circle(ctx,x2,y2,2,"yellow");
-      draw_circle(ctx,x5,y5,2,"red");
+      //draw_circle(ctx,this.x_c,this.y_c,2,"red");
+      //draw_circle(ctx,x1,y1,2,"red");
+      //draw_circle(ctx,x2,y2,2,"yellow");
+      //draw_circle(ctx,x5,y5,2,"red");
     }
   }
 

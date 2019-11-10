@@ -96,9 +96,9 @@ function insertion_cavity(B,l1,l2,theta,d,color) { // insertion & rejection
     const r_ext=Math.abs(this.l1/2*Math.tan(Math.abs(this.theta/2))-this.d/2);
     const r_int=Math.abs(this.l1/2*Math.tan(Math.abs(Math.PI/2+this.theta/2))-this.d/2);
 
-    draw_circle(ctx,this.x,this.y,2,"red");
-    draw_circle(ctx,this.x_c,this.y_c,2,"yellow");
-    draw_circle(ctx,this.x_f,this.y_f,2,"green");
+    //draw_circle(ctx,this.x,this.y,2,"red");
+    //draw_circle(ctx,this.x_c,this.y_c,2,"yellow");
+    //draw_circle(ctx,this.x_f,this.y_f,2,"green");
 
     const x1=p[0][0],y1=p[0][1];
     const x2=p[1][0],y2=p[1][1];
@@ -116,10 +116,10 @@ function insertion_cavity(B,l1,l2,theta,d,color) { // insertion & rejection
 
     draw_arc(ctx,x2,y2,r_ext,-Math.PI/2+this.a,Math.PI-Math.abs(this.theta),this.theta);
     draw_arc(ctx,x5,y5,r_int,this.a+this.theta-Math.PI/2,Math.abs(this.theta),this.theta);
-    draw_circle(ctx,x2,y2,2,"green");
-    draw_circle(ctx,x5,y5,2,"red");
+    //draw_circle(ctx,x2,y2,2,"green");
+    //draw_circle(ctx,x5,y5,2,"red");
 
-    draw_circle(ctx,x7,y7,2,"green");
+    //draw_circle(ctx,x7,y7,2,"green");
   }
 
   this.inside=function(x,y) { // check if a point is inside the cavity

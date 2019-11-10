@@ -60,8 +60,8 @@ function electric_cavity(E,l,d,color) {
     const x3=p[2][0],y3=p[2][1];
     const x4=p[3][0],y4=p[3][1];
 
-    draw_circle(context,this.x,this.y,2,"red");
-    draw_circle(context,this.x_f,this.y_f,2,"green");
+    //draw_circle(context,this.x,this.y,2,"red");
+    //draw_circle(context,this.x_f,this.y_f,2,"green");
 
     draw_single_line(ctx,x1,y1,x2,y2,this.color);
     draw_single_line(ctx,x2,y2,x3,y3,this.color);
